@@ -10,7 +10,7 @@
 */
 
 $size-header-width:		35%;
-$size-header-pad:		4em;
+$size-header-pad:		2em;
 
 /* Basic */
 
@@ -62,7 +62,7 @@ $size-header-pad:		4em;
 	h1, h2, h3, h4, h5, h6 {
 		color: $color-fg-bold;
 		font-weight: $font-weight-bold;
-		line-height: 1em;
+		line-height: 0.5em;
 		margin: 0 0 ($size-element-margin * 0.5) 0;
 		
 		a {
@@ -73,7 +73,7 @@ $size-header-pad:		4em;
 
 	h1 {
 		font-size: 2em;
-		line-height: 1.5em;
+		line-height: 0.5em;
 	}
 
 	h2 {
@@ -892,7 +892,7 @@ $size-header-pad:		4em;
 		h1 {
 			color: $color-accent2-fg;
 			font-size: 1.35em;
-			line-height: 1.75em;
+			line-height: 0.5em;
 			margin: 0;
 		}
 		
@@ -930,7 +930,7 @@ $size-header-pad:		4em;
 			li {
 				border-left: solid 1px $color-accent2-border;
 				display: inline-block;
-				line-height: 1em;
+				line-height: 0;
 				margin-left: 0.75em;
 				padding-left: 0.75em;
 				
